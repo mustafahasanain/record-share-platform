@@ -184,5 +184,5 @@ export const dummyCards = [
     views: 67,
     visibility: "public",
     duration: 345,
-  }
-]
+  },
+];
