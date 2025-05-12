@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import DropdownList from "./DropdownList";
 
 const Header = ({ subHeader, title, userImg }: SharedHeaderProps) => {
   return (
@@ -8,7 +9,8 @@ const Header = ({ subHeader, title, userImg }: SharedHeaderProps) => {
         <figure className="details">
           {userImg && (
             <Image
-              src={userImg || "/assets/images/dummey.jpg"}
+              // render the image only if there is one
+              src={userImg}
               alt="User"
               width={66}
               height={66}
@@ -65,8 +67,7 @@ const Header = ({ subHeader, title, userImg }: SharedHeaderProps) => {
           />
         </div>
 
-        {/* TODO: create the dropdown */}
-        {` <DropdownList /> `}
+        <DropdownList />
       </section>
     </header>
   );
