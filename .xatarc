@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Mustafa-Hasanain-s-workspace-3h7651.eu-central-1.xata.sh/db/mh_snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
