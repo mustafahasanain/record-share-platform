@@ -10,7 +10,7 @@ const defaultOptions = {
   databaseURL:
     "https://Mustafa-Hasanain-s-workspace-3h7651.eu-central-1.xata.sh/db/mh_snapcast",
   apiKey: process.env.XATA_API_KEY,
-  branch: "name",
+  branch: "main",
 };
 
 export class XataClient extends DatabaseClient<DatabaseSchema> {
